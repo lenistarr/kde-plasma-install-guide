@@ -11,7 +11,7 @@ The following commands will install nvidia-open-dkms, if you have an older GPU, 
 sudo pacman -Syu 
 sudo pacman -S linux-headers nvidia-open-dkms nvidia-utils
 ```
-Nvidia does not load kernel mode setting by default, enabling it is required to make Wayland compositors function properly:
+Nvidia drivers do not load kernel mode setting by default, enabling it is required to make Wayland compositors function properly:
 ##
 <dl><dd>
 <pre>
