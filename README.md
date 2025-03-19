@@ -25,5 +25,3 @@ sudo mkinitcpio -P
 reboot
 </pre>
 </dd></dl>
-
-
