@@ -15,7 +15,7 @@ Nvidia drivers do not load kernel mode setting by default, enabling it is requir
 ##
 <dl><dd>
 <pre>
-sudo vim /etc/mkinitcpio.conf <i># In the MODULES array, remove "kms" from the "HOOKS" array, then add the following module names:
+sudo vim /etc/mkinitcpio.conf <i># In the MODULES array, remove "kms" from the HOOKS array, then add the following module names:
         MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)</i> 
 sudo vim /etc/modprobe.d/nvidia.conf # <i>Write the following:
         options nvidia_drm modeset=1 fbdev=1</i>
