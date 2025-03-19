@@ -6,7 +6,7 @@ sudo pacman -S dolphin ffmpegthumbs firefox gwenview kate keepassxc konsole mpv 
 sudo systemctl enable sddm
 ```
 ## For Nvidia GPUs
-The following script will install nvidia-open-dkms, if you have an older GPU, change the nvidia package accordingly in the script.
+The following commands will install nvidia-open-dkms, if you have an older GPU, change the nvidia package according to your supported GPU family in the script.
 ```
 sudo pacman -Syu 
 sudo pacman -S linux-headers nvidia-open-dkms nvidia-utils
